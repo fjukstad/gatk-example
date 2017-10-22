@@ -30,7 +30,7 @@
             "Image": "fjukstad/gatk",
             "Cmd": [
                 "-T", "CountLoci", "-R", "/walrus/input/{{sampleFASTA}}", "-I",
-                "/walrus/input/{{sampleBAM}}"
+                "/walrus/input/{{sampleBAM}}", "-o","/walrus/CountLoci/output.txt"
             ],
             "Inputs": ["input"]
         }
